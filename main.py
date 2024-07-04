@@ -53,7 +53,6 @@ def send_welcome(message):
     send()
 
 
-# ЛЕГЧЕ ХУЙ ЗАБИТЬ, ЧТОБЫ ВСЕ БЫЛО НОРМ ВЕРНИ ВОЗВРАЩАЕМОЕ ЗНАЧЕНИЕ WRITE_TO_SQLITE И ПЕРЕДЕЛАЙ НЕМНОГО UPLOAD_POSTS
 def send():
     count = 0
     sum_checks = 0
