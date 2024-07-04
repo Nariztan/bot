@@ -33,7 +33,7 @@ def upload_posts():
                 if 'mci' in url:
                     c = t.content
                     price = c[c.find('по'):c.find('с реферальной')]
-                    if '(' in c:
+                    if '(' in price:
                         if write_to_sqlite(url):
                             return url, float(price[price.find('(') + 1: price.find(')') - 1])
                         else:
